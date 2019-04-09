@@ -1,0 +1,4 @@
+<mat-form-field>
+    <input type="text" matInput [(ngModel)]="routeParameter">
+</mat-form-field>
+<a mat-button routerLink="page3" [queryParams]="{init3: routeParameter}">Go to page3</a>
